@@ -1,0 +1,36 @@
+.mountNode {
+  color: #333;
+}
+
+.board {
+	display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 30vw 30vw 30vw;
+  grid-gap: 10px;
+  background-color: #aaa;
+}
+
+.cell {
+  background-color: #eee;
+  color: #666;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  font-size: 15vw;
+  cursor: pointer;
+  min-width: 15vw;
+  min-height: 15vw;
+}
+
+.selected {
+	cursor: not-allowed;
+}
+
+.winning {
+    background-color: #8e9;
+}
+
+.result {
+	font-weight: 700;
+  text-align: center;
+}
